@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="style.css">
+.image-container {
+    width: 50%; /* Сүрөттүн баштапкы өлчөмү */
+    margin: 0 auto;
+    overflow: hidden;
+}
+<img src="доц.jpg" alt=" " style="width: 100%; height: auto;"/>
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Анимациянын узактыгы */
+}
+
+.image-container:hover img {
+    transform: scale(1.1); /* Сүрөт чоңоюп чыгат */
+}
+<section id="news" class="content">
+            <h2>Жаңылыктар</h2>
+            <article>
+            <h3> ЯрГПУнун ДОЦЕНТИ ОшМПУда ОКУТУУЧУЛАРГА ЛЕКЦИЯ ОКУДУ</h3>
+            <p>Ош мамлекеттик педагогикалык университетинин математика жана компьютердик технологиялар факультетинде конок-лекция уюштурулду.</p>
+            <a href="#">Кененирээк</a>
+            </article>
